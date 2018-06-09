@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="test">160px</dimen>
+    <dimen name="test5">160px</dimen>
+</resources>

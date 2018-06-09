@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="x12b">16dp</dimen>
+    <dimen name="test2">160px</dimen>
+</resources>

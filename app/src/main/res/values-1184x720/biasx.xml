@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="test">160px</dimen>
+    <dimen name="biasx10">3720px</dimen>
+    <dimen name="biasy10">31180.4px</dimen>
+</resources>
