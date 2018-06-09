@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.github.biasai.repositories.baron.warebia.Test3
+import com.github.biasai.repositories.baron.warebia.WarebiaTest
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -16,12 +18,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        WarebiaTest()
+        Test3()
 
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
+
+//        Test3()
 
         var displayMetrics = getResources().getDisplayMetrics()
 
