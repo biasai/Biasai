@@ -23,11 +23,10 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="@dimen/x50bia"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:background="#ff00"
-        android:layout_margin="@dimen/x10bia"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
 
