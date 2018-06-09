@@ -1,1 +1,1 @@
-include ':app', ':warebia'
+include ':app', ':warebia', ':mylibrary'

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.example.mylibrary.MyLibs
 import com.example.warebia.Test
 
 import kotlinx.android.synthetic.main.activity_main.*
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
 
         Test()
+        MyLibs()
 
         var displayMetrics = getResources().getDisplayMetrics()
 
